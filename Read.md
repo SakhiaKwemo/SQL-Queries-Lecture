@@ -1,6 +1,6 @@
 # Lighthouse Labs | SQL from our Apps
 
-[GitHub Repository Branch]([https://github.com/SakhiaKwemo/SQL-Queries-Lecture/tree/master]) | [Vimeo Video Recording]([https://vimeo.com/778632628/d2086cfbdd])
+[GitHub Repository Branch](https://github.com/SakhiaKwemo/SQL-Queries-Lecture/tree/master) | [Vimeo Video Recording](https://vimeo.com/778632628/d2086cfbdd)
 
 * [X] Placing the Final Piece into the Stack
 * [X] Connecting to a Database in Node.js
