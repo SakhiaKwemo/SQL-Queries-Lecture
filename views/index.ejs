@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Movies</title>
+</head>
+<body>
+    <h1>Welcome To The Get Movies Page</h1>
+    <ul>
+        <% for (const movie of movies) {%>
+            <li>
+                Title: <%= movie.moviename%> 
+                Genre: <%= movie.genre%> 
+                Duration: <%= movie.duration%> 
+                Rating: <%= movie.rating%> 
+            </li>
+        <% } %>
+    </ul>
+    <form method="GET" action="/get-movie/">
+        <input placeholder="Search by Id" id = "search" type="text" name="movieSearch">
+        <input type="submit" value="Submit">
+    </form>
+    <form action="/info" method="post">
+        <p>Name : </p>
+        <input id="team_name" type="text" name="name">
+        <p>Number : </p>
+        <input id="team_name" type="text" name="number">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
